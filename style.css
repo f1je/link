@@ -1,1 +1,95 @@
 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f0f0f;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(135deg, #ff0000, #990000);
+    padding: 100px 20px;
+}
+
+header h1 {
+    font-size: 60px;
+    margin: 0;
+    letter-spacing: 5px;
+}
+
+header p {
+    font-size: 20px;
+    margin: 10px 0 20px;
+}
+
+.btn {
+    background: white;
+    color: black;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.stat-box {
+    background: #1a1a1a;
+    padding: 30px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.team .players {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.player {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.join form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.join input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+}
+
+.join button {
+    padding: 10px 20px;
+    background: #ff0000;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background: #111;
+    padding: 20px;
+    font-size: 14px;
+}
