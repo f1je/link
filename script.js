@@ -1,6 +1,5 @@
-
-document.getElementById("tryoutForm").addEventListener("submit", function(e) {
+document.getElementById("form").addEventListener("submit", function(e){
     e.preventDefault();
-    document.getElementById("successMsg").textContent = 
-        "Application submitted! We will contact you on Roblox.";
+    document.getElementById("success").textContent =
+        "Application Sent! LINK Staff will contact you.";
 });
